@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_esik"
+        android:title="Eşik Değeri" />
+    <item
+        android:id="@+id/action_nesneSecimi"
+        android:title="Nesne Seçimi" />
+    <item
+        android:id="@+id/action_maksTespit"
+        android:title="Maksimum Tespit" />
+    <item
+        android:id="@+id/action_iptal"
+        android:enabled="false"
+        android:title="Geri"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_sonuclariKaydet"
+        android:enabled="false"
+        android:title="Sonuçları Kaydet"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_resmiKaydet"
+        android:enabled="false"
+        android:title="Resmi Kaydet"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_ekranCozunurluk"
+        android:title="Ekran Çözünürlüğü" />
+    <item
+        android:id="@+id/action_resimCozunurluk"
+        android:title="Resim Çözünürlüğü" />
+    <item
+        android:id="@+id/action_modelDegistir"
+        android:title="Model Değiştir" />
+    <item
+        android:id="@+id/action_resimYukle"
+        android:title="Resim Yükle"
+        app:showAsAction="always" />
+</menu>
